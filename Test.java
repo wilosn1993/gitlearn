@@ -1,5 +1,5 @@
 public class Test {
   Test() {
-    System.out.println("just test");
+    System.out.println("first change");
   }
 }
