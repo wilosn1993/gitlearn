@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+function strToJson(str){ 
+ var a = {}
+ a.key = str;
+ alert(JSON.stringify(a));
+}
+</script>
+</head>
+<body>
+<textarea onblur="strToJson(this.value)">
+
+</textarea>
+</body>
+</html>
